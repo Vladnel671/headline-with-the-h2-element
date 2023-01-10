@@ -5,5 +5,5 @@ function digitalRoot(n) {
     .map((num) => {
       result += Number(num)
     })
-  return result > 10 ? digitalRoot(result) : result
+  return result > 9 ? digitalRoot(result) : result
 }
